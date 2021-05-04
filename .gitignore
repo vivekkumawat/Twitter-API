@@ -1,0 +1,11 @@
+.DS_Store
+.git/
+src/controllers/.DS_Store
+src/routes/.DS_Store
+src/models/.DS_Store
+dist/
+node_modules/
+.env
+.vscode/
+.nyc_output
+package-lock.json
