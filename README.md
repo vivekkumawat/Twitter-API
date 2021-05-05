@@ -46,3 +46,10 @@ Sample Payload:-
 
 2. GET https://twitter-api-endpoint.herokuapp.com/api/tweet/delete/:tweetId
 3. GET https://twitter-api-endpoint.herokuapp.com/api/tweet/showLatest
+
+## Database Schema
+You can find all the database models/Schema inside this folder https://github.com/vivekkumawat/Twitter-API/tree/master/src/models
+
+## How much this system can scale up to ?
+This system can easily handle small user base and can  scale upto between small to low mid user base, but in order to scale this for big no. of user bases we can furthermore decouple or split this API into more Microservice for example:- sperate microservices for Authentication, Handling Tweets,  Follo/Unfollow etc.
+And also we can split followers/following array inside User schema into new seprate Documents
